@@ -1,0 +1,49 @@
+.button {
+  background: #60b559;
+  box-shadow: none;
+  filter: none;
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  flex-direction: row;
+  position: relative;
+  border-radius: 4px;
+  padding: 10px 20px;
+  border: 1px solid #0c9b00;
+}
+.button > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.button > :global(.__wab_flex-container) > *,
+.button > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.button > :global(.__wab_flex-container) > picture > img,
+.button
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.button:hover {
+  background: #196413;
+  border-color: #42e435;
+}
+.button:active {
+  background: #000000;
+}
+.signUp {
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "SF Pro Text";
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: #ffffff;
+  position: relative;
+}

@@ -1,0 +1,8 @@
+.rive:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  height: 324px;
+  width: 100%;
+  position: relative;
+  min-width: 0;
+}

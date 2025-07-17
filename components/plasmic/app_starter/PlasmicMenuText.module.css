@@ -1,0 +1,20 @@
+.aboutUs {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  flex-shrink: 1;
+  padding-bottom: 0px;
+  position: relative;
+  cursor: pointer;
+  user-select: text;
+  white-space: pre-wrap;
+  letter-spacing: 0em;
+  line-height: 1;
+  color: var(--token-_lDKvw4F7epn);
+  font-weight: 400;
+  font-size: 12px;
+  font-family: "Anek Devanagari", sans-serif;
+}
+.aboutUs:hover:active {
+  color: var(--token-Cg7eG7GLuC6u);
+}

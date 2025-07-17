@@ -1,0 +1,557 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  height: auto;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__lg4B {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: var(--token-Yq556PvPjGii);
+  width: 842px;
+  padding: 0px;
+  margin: 0px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__lg4B {
+    width: 100%;
+    padding: 0px;
+  }
+}
+.mockup {
+  display: grid;
+  position: relative;
+  align-content: flex-start;
+  justify-items: center;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  min-width: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+}
+.mockup > * {
+  grid-column: 4;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .mockup > * {
+    grid-column: 4;
+  }
+}
+.rive:global(.__wab_instance) {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  height: 337px;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .rive:global(.__wab_instance) {
+    height: 311px;
+  }
+}
+.section {
+  display: grid;
+  position: relative;
+  align-content: flex-start;
+  justify-items: center;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+  padding: 45px 0 28px;
+}
+.section > * {
+  grid-column: 4;
+}
+.header {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.header > :global(.__wab_flex-container) > *,
+.header > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.header > :global(.__wab_flex-container) > picture > img,
+.header
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.text__jzlWs {
+  display: block;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Anek Devanagari", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+  width: 100%;
+  max-width: 296px;
+  line-height: 1;
+  min-width: 0;
+}
+.text__jiRlh {
+  display: block;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Anek Devanagari", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 21px;
+  color: #46be3c;
+  position: relative;
+  width: 319px;
+}
+.haedParagraph {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 0;
+}
+.haedParagraph > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  margin-top: calc(0px - 13px);
+  height: calc(100% + 13px);
+}
+.haedParagraph > :global(.__wab_flex-container) > *,
+.haedParagraph > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.haedParagraph > :global(.__wab_flex-container) > picture > img,
+.haedParagraph
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 13px;
+}
+.frame4 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding-bottom: 5px;
+}
+.frame4 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 13px);
+  height: calc(100% + 13px);
+}
+.frame4 > :global(.__wab_flex-container) > *,
+.frame4 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame4 > :global(.__wab_flex-container) > picture > img,
+.frame4
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 13px;
+}
+.frame12 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-bottom: 13px;
+}
+.frame12 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 5px);
+  height: calc(100% + 5px);
+}
+.frame12 > :global(.__wab_flex-container) > *,
+.frame12 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame12 > :global(.__wab_flex-container) > picture > img,
+.frame12
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 5px;
+}
+.modal:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+}
+.pcls_v3VC5vb1p1hX {
+  background: #46be3c;
+  outline: none;
+}
+.embedHtml:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0px;
+  top: 8px;
+  width: 100%;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .embedHtml:global(.__wab_instance) {
+    height: 80%;
+  }
+}
+.button2:global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__htyR9 {
+  display: block;
+  font-size: 9px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Campton";
+  font-weight: 300;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(31, 31, 31, 1);
+  position: relative;
+}
+.freeBox__fbY3A {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  padding: 8px 3px 3px;
+}
+.text__jnpFo {
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Anek Devanagari", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 33px;
+  width: 100%;
+  max-width: 349px;
+  min-width: 0;
+}
+.text__uX66J {
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Anek Devanagari", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 33px;
+  position: relative;
+  color: var(--token-Cg7eG7GLuC6u);
+}
+.features {
+  background: rgba(255, 255, 255, 1);
+  width: 393px;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 49px;
+}
+.features > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 6px);
+  height: calc(100% + 6px);
+}
+.features > :global(.__wab_flex-container) > *,
+.features > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.features > :global(.__wab_flex-container) > picture > img,
+.features
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 6px;
+}
+.features2 {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(70, 190, 60, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+.features2 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.features2 > :global(.__wab_flex-container) > *,
+.features2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.features2 > :global(.__wab_flex-container) > picture > img,
+.features2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 12px;
+}
+._ {
+  align-self: stretch;
+  position: relative;
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+._2 {
+  display: block;
+  font-size: 20px;
+  font-family: "Anek Devanagari", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+}
+.text__evShK {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 0em;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+  width: 242px;
+  flex-shrink: 0;
+}
+.features5 {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(70, 190, 60, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+.features5 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.features5 > :global(.__wab_flex-container) > *,
+.features5 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.features5 > :global(.__wab_flex-container) > picture > img,
+.features5
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 12px;
+}
+._7 {
+  align-self: stretch;
+  position: relative;
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+._8 {
+  display: block;
+  font-size: 20px;
+  font-family: "Anek Devanagari", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+}
+.speakNaturallyTomorrowAt9In10Mins3 {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 0em;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+  width: 242px;
+  flex-shrink: 0;
+}
+.features3 {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(70, 190, 60, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+.features3 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.features3 > :global(.__wab_flex-container) > *,
+.features3 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.features3 > :global(.__wab_flex-container) > picture > img,
+.features3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 12px;
+}
+._3 {
+  align-self: stretch;
+  position: relative;
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+._4 {
+  display: block;
+  font-size: 20px;
+  font-family: "Anek Devanagari", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+}
+.speakNaturallyTomorrowAt9In10Mins {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 0em;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+  width: 242px;
+  flex-shrink: 0;
+}
+.features4 {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(70, 190, 60, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+.features4 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.features4 > :global(.__wab_flex-container) > *,
+.features4 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.features4 > :global(.__wab_flex-container) > picture > img,
+.features4
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 12px;
+}
+._5 {
+  align-self: stretch;
+  position: relative;
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+._6 {
+  display: block;
+  font-size: 20px;
+  font-family: "Anek Devanagari", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+}
+.speakNaturallyTomorrowAt9In10Mins2 {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 0em;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+  width: 242px;
+  flex-shrink: 0;
+}
+.footer:global(.__wab_instance) {
+  align-self: baseline;
+  position: relative;
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  width: 128.74%;
+  max-width: 100%;
+  min-width: 100%;
+  height: 69px;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .footer:global(.__wab_instance) {
+    max-width: 100%;
+    align-self: auto;
+    left: auto;
+    top: auto;
+    z-index: 1;
+    position: relative;
+    bottom: auto;
+    right: auto;
+  }
+}

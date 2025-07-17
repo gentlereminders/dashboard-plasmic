@@ -1,0 +1,83 @@
+.ariaRangeSlider:global(.__wab_instance) {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: var(--token-06sdtM_wbhgE);
+  font-family: var(--token-hOc-3B0aS2eN);
+  font-size: var(--token-XWK9geoPQbIS);
+  line-height: var(--token-WsmWIjrUpLdO);
+  min-width: 200px;
+  row-gap: var(--token-9dF2ZX-Zigxb);
+}
+.ariaRangeSlider[data-disabled]:global(.__wab_instance) {
+  opacity: 0.5;
+}
+.freeBox__jcwN2 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.freeBox__jcwN2 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: calc(0px - var(--token-n0rAgRmIZi97));
+  width: calc(100% + var(--token-n0rAgRmIZi97));
+}
+.freeBox__jcwN2 > :global(.__wab_flex-container) > *,
+.freeBox__jcwN2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__jcwN2 > :global(.__wab_flex-container) > picture > img,
+.freeBox__jcwN2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: var(--token-n0rAgRmIZi97);
+}
+.text__prcMt {
+  position: relative;
+}
+.text {
+  position: relative;
+}
+.freeBox__a00VF {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding-top: var(--token-ERVUZNtRpci6);
+  padding-bottom: var(--token-ERVUZNtRpci6);
+  width: 100%;
+  min-width: 0;
+}
+.background {
+  display: flex;
+  background: var(--token-VQF5rIYIqVuR);
+  height: var(--token-n0rAgRmIZi97);
+  width: 100%;
+  min-width: 0;
+  border-radius: 99px;
+}
+.ariaSliderTrack:global(.__wab_instance) {
+  cursor: pointer;
+  opacity: 1;
+  box-sizing: border-box;
+  background: none;
+  height: var(--token-n0rAgRmIZi97);
+  width: 100%;
+  min-width: 0;
+}
+.sliderThumb___6ZguR:global(.__wab_instance):global(.__wab_instance) {
+  position: relative;
+  margin-top: var(--token-mLUvzLNO9-Km);
+}
+.foreground {
+  display: block;
+  background: var(--token-iEmHz2SUrLwF);
+  height: var(--token-n0rAgRmIZi97);
+  border-radius: 99px 0rem 0rem 99px;
+}
+.description:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}

@@ -1,0 +1,125 @@
+.root {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  top: auto;
+  left: auto;
+  z-index: 1;
+  margin-bottom: 0px;
+  min-width: 100%;
+  grid-column-start: 1 !important;
+  grid-column-end: -1 !important;
+  padding: 10px 20px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    left: -40px;
+  }
+}
+.freeBox__seyP {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  max-width: 100%;
+  top: 0px;
+  left: 0px;
+  min-width: 0;
+  padding: 8px 0px;
+}
+.freeBox__kcdof {
+  display: block;
+  width: 100px;
+  height: auto;
+  max-width: 100%;
+  background: var(--token-Cg7eG7GLuC6u);
+  position: sticky;
+  left: 8px;
+  top: auto;
+  z-index: 1;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  flex-shrink: 0;
+  padding: 0px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__kcdof {
+    left: 0px;
+  }
+}
+.freeBox__uflZl {
+  display: block;
+  width: 100px;
+  height: auto;
+  max-width: 100%;
+  background: var(--token-Cg7eG7GLuC6u);
+  position: sticky;
+  left: 8px;
+  top: auto;
+  z-index: 1;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 20px;
+  flex-shrink: 0;
+  padding: 0px;
+}
+.freeBox__g2MKp {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  background: var(--token-m1sF9x5ChFwv);
+  position: sticky;
+  left: auto;
+  top: 17px;
+  z-index: 1;
+  backdrop-filter: blur(2px);
+  min-width: 0;
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 8px;
+  padding: 8px;
+}
+.freeBox__g2MKp > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  margin-left: calc(0px - 15px);
+  width: calc(100% + 15px);
+}
+.freeBox__g2MKp > :global(.__wab_flex-container) > *,
+.freeBox__g2MKp > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__g2MKp > :global(.__wab_flex-container) > picture > img,
+.freeBox__g2MKp
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 15px;
+}
+.menuText___9OtPh:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.menuText__u2OCo:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.menuText__kd4Tz:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.menuText__bZpm:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
